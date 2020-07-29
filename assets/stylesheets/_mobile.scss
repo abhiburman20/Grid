@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    //GRID
+    
+    .item {
+        grid-column: 1/-1;
+        grid-row: auto;
+    }
+    .welcome {
+        padding: 10% 6% ;
+    }
+    .article {
+        padding: 20% 6%;
+    }
+    .map-frame {
+        width: 100%;
+    }
+    .article-map {
+        padding: 2% 2%;
+    }
+    header {
+        padding: 0%;
+    }
+    .heading-footer {
+        font-size: 1rem;
+    }
+    .social-media {
+        font-size: 0.5rem;
+        .footer-icon {
+            margin: 0;
+        }
+    }
+    .skill-item {
+        width: 95%;
+    }
+    .item11,
+    .item14 {
+        margin-top: -6px;
+    }
+    img {
+        width: 100%;
+    }
+    .article-services {
+       padding-top: 6rem;
+    }
+    label {
+        display: inline-block;
+    }
+    .fa-bars {
+        font-size: 2rem;
+        color: #966f32;
+    } 
+    .mob-flex {
+        flex-direction: column;
+    }
+    .logo,
+    label {
+        z-index: 2;
+    }
+    .nav {
+        display: none;
+        position: fixed;
+        background: rgba(0, 0,0, 0.8); 
+        background-size: cover;
+        z-index: 1;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        padding: 37% 10% 100% 10%;
+        .mob-flex {
+            font-size: 2rem;
+        }
+    }
+}

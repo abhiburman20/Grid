@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-heading {
+    font-size: 1rem;
+    margin: 2% 0;
+}
+.heading {
+    font-size: 2rem;
+}
+.button {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 6.5rem;
+    padding: 0 1rem;
+}
+.article {
+    padding: 5%;
+}
+i {
+    font-size: 1rem;
+    margin: 2% 0;
+}
+
+
+// HAMBURGER BUTTON
+
+#nav-button,
+label {
+    display: none;
+}
+.toggle:checked ~ .nav {
+    display: inline-block;
+}
+.nav-item:hover,
+.link:hover {
+   color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.button:hover {
+    background-color: white;
+    color: var(--secondary-color);
+    border: 0.01rem solid var(--secondary-color);
+}

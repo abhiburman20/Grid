@@ -1,0 +1,26 @@
+.welcome {
+    padding: 25% 5%;
+    background-color: #f5e3d7;
+    .small-heading {
+        color: #cac1ba;
+    }
+    .heading {
+        color: #817b76;
+    }
+    strong {
+        color: #5b5855;
+    }
+    p {
+        color: #b7afaa;
+    }
+    strong {
+        font-weight: bold;
+    }
+    .button {
+        color: #2d3636;
+        &:hover {
+            color: white;
+            background-color: #2d3636;
+        }
+    }
+}

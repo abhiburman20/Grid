@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    position: relative;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1rem;
+    margin: 1% auto;
+}
+.para-small {
+    font-size: 0.8rem;
+    margin: 5% auto;
+}

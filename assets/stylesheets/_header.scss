@@ -1,0 +1,23 @@
+header {
+    margin: 2% 0;
+    position: absolute;
+    width: 100%;
+}
+h1 {
+    font-size: 2rem;
+    color: $heading-color;
+    font-weight: bolder;
+    text-shadow:1px 1px  white;
+}
+nav {
+    text-align: right;
+    a {
+    color: #938b87;
+    &.item-1 {
+        color: #b99c77;
+    }
+    }
+    :hover {
+        color: #b99c77;
+    }
+}

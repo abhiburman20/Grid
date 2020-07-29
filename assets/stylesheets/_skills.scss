@@ -1,0 +1,46 @@
+.outer{
+    width: 100%;
+    background-color: white;
+}
+.inner{
+    background-color: black;
+    width: 50%;
+    height: 5px;
+    &.frontend-bar {
+        width: 90%;
+    }
+    &.backend-bar {
+        width: 70%;
+    }
+    &.html-bar {
+        width: 80%;
+    }
+}
+.article-skills {
+    margin: 10% 0;
+}
+.heading-col-1 {
+    color: #f8e3c3;
+}
+.skill-heading {
+    font-size: 1rem;
+    color: black;
+}
+.para-col-1 {
+    font-size: 0.8rem;
+}
+.skill-item {
+    width: 100%;
+}
+.progress-percent {
+    font-size: 1rem;
+}
+.article-skills {
+   padding: 5%;
+}
+
+//COLOR
+
+.h3-skills {
+    color: #f5d6a6;
+}

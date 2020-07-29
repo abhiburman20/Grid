@@ -1,0 +1,30 @@
+input {
+    width: 100%;
+    padding: 2% 1%;
+    font-size: 1rem;
+    margin-bottom: 2%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: $tertiary-color;
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    &.write {
+        padding-bottom: 10%;
+    }
+}
+.input-section {
+    margin:  10% 0;
+}
+.article-write {
+    padding: 10%;
+}
+.send-bttn {
+    padding: 0 10%;
+    color: #aaaaaa;
+    background-color: white;
+    border: none;
+    &:hover {
+        color: $tertiary-color;
+    }
+}
